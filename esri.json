@@ -1,0 +1,106 @@
+{
+
+  "ESRI (Neatlight)": [
+
+    {
+      "title": "World Street Map",
+      "id": "Esri.WorldStreetMap",
+      "type": "XYZ",
+      "properties": {
+        "urls": [
+          "http://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/${z}/${y}/${x}"
+        ]
+      }
+    },
+    {
+      "title": "DeLorme",
+      "id": "Esri.DeLorme",
+      "type": "XYZ",
+      "properties": {
+        "urls": [
+          "http://server.arcgisonline.com/ArcGIS/rest/services/Specialty/DeLorme_World_Base_Map/MapServer/tile/${z}/${y}/${x}"
+        ]
+      }
+    },
+    {
+      "title": "World Topo Map",
+      "id": "Esri.WorldTopoMap",
+      "type": "XYZ",
+      "properties": {
+        "urls": [
+          "http://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/${z}/${y}/${x}"
+        ]
+      }
+    },
+    {
+      "title": "World Imagery",
+      "id": "Esri.WorldImagery",
+      "type": "XYZ",
+      "properties": {
+        "urls": [
+          "http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/${z}/${y}/${x}"
+        ]
+      }
+    },
+    {
+      "title": "World Terrain",
+      "id": "Esri.WorldTerrain",
+      "type": "XYZ",
+      "properties": {
+        "urls": [
+          "http://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer/tile/${z}/${y}/${x}"
+        ]
+      }
+    },
+    {
+      "title": "World Shaded Relief",
+      "id": "Esri.WorldShadedRelief",
+      "type": "XYZ",
+      "properties": {
+        "urls": [
+          "http://server.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer/tile/${z}/${y}/${x}"
+        ]
+      }
+    },
+    {
+      "title": "World Physical",
+      "id": "Esri.WorldPhysical",
+      "type": "XYZ",
+      "properties": {
+        "urls": [
+          "http://server.arcgisonline.com/ArcGIS/rest/services/World_Physical_Map/MapServer/tile/${z}/${y}/${x}"
+        ]
+      }
+    },
+    {
+      "title": "Ocean Basemap",
+      "id": "Esri.OceanBasemap",
+      "type": "XYZ",
+      "properties": {
+        "urls": [
+          "http://server.arcgisonline.com/ArcGIS/rest/services/Ocean_Basemap/MapServer/tile/${z}/${y}/${x}"
+        ]
+      }
+    },
+    {
+      "title": "National Geographic World Map",
+      "id": "Esri.NatGeoWorldMap",
+      "type": "XYZ",
+      "properties": {
+        "urls": [
+          "http://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/${z}/${y}/${x}"
+        ]
+      }
+    },
+    {
+      "title": "World Gray Canvas",
+      "id": "Esri.WorldGrayCanvas",
+      "type": "XYZ",
+      "properties": {
+        "urls": [
+          "http://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/${z}/${y}/${x}"
+        ]
+      }
+    }
+  ]
+}
