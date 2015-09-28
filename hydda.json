@@ -1,0 +1,26 @@
+{
+
+  "Hydda (Neatlight)": [
+
+    {
+      "title": "Full",
+      "id": "Hydda.Full",
+      "type": "XYZ",
+      "properties": {
+        "urls": [
+          "http://${s}.tile.openstreetmap.se/hydda/full/${z}/${x}/${y}.png"
+        ]
+      }
+    },
+    {
+      "title": "Base",
+      "id": "Hydda.Base",
+      "type": "XYZ",
+      "properties": {
+        "urls": [
+          "http://${s}.tile.openstreetmap.se/hydda/base/${z}/${x}/${y}.png"
+        ]
+      }
+    }
+  ]
+}
