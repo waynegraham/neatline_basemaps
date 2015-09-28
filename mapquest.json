@@ -1,0 +1,32 @@
+{
+
+  "Mapquest (Neatlight)": [
+
+    {
+      "title": "OSM",
+      "id": "MapQuestOpen.OSM",
+      "type": "XYZ",
+      "properties": {
+        "urls": [
+          "http://otile1.mqcdn.com/tiles/1.0.0/map/${z}/${x}/${y}.jpg",
+          "http://otile2.mqcdn.com/tiles/1.0.0/map/${z}/${x}/${y}.jpg",
+          "http://otile3.mqcdn.com/tiles/1.0.0/map/${z}/${x}/${y}.jpg",
+          "http://otile4.mqcdn.com/tiles/1.0.0/map/${z}/${x}/${y}.jpg"
+        ]
+      }
+    },
+    {
+      "title": "Aerial",
+      "id": "MapQuestOpen.Aerial",
+      "type": "XYZ",
+      "properties": {
+        "urls": [
+          "http://otile1.mqcdn.com/tiles/1.0.0/sat/${z}/${x}/${y}.jpg",
+          "http://otile2.mqcdn.com/tiles/1.0.0/sat/${z}/${x}/${y}.jpg",
+          "http://otile3.mqcdn.com/tiles/1.0.0/sat/${z}/${x}/${y}.jpg",
+          "http://otile4.mqcdn.com/tiles/1.0.0/sat/${z}/${x}/${y}.jpg"
+        ]
+      }
+    }
+  ]
+}
