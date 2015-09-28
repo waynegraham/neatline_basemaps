@@ -1,0 +1,73 @@
+{
+
+  "Open Streeet Map (Neatlight)": [
+
+    {
+      "title": "Mapnik",
+      "id": "osm.mapnik",
+      "type": "XYZ",
+      "properties": {
+        "urls": [
+          "http://a.tile.openstreetmap.org/${z}/${x}/${y}.png",
+          "http://b.tile.openstreetmap.org/${z}/${x}/${y}.png",
+          "http://c.tile.openstreetmap.org/${z}/${x}/${y}.png"
+        ]
+      }
+    },
+
+    {
+      "title": "Black and White",
+      "id": "osm.bw",
+      "type": "XYZ",
+      "properties": {
+        "urls": [
+          "http://a.tiles.wmflabs.org/bw-mapnik/${z}/${x}/${y}.png",
+          "http://b.tiles.wmflabs.org/bw-mapnik/${z}/${x}/${y}.png",
+          "http://c.tiles.wmflabs.org/bw-mapnik/${z}/${x}/${y}.png"
+        ]
+      }
+    },
+
+    {
+      "title": "Germany",
+      "id": "osm.de",
+      "type": "XYZ",
+      "properties": {
+        "urls": [
+          "http://a.tile.openstreetmap.de/tiles/osmde/${z}/${x}/${y}.png",
+          "http://b.tile.openstreetmap.de/tiles/osmde/${z}/${x}/${y}.png",
+          "http://c.tile.openstreetmap.de/tiles/osmde/${z}/${x}/${y}.png"
+        ]
+      }
+    },
+
+    {
+      "title": "France",
+      "id": "osm.fr",
+      "type": "XYZ",
+      "properties": {
+        "urls": [
+          "http://a.tile.openstreetmap.fr/osmfr/${z}/${x}/${y}.png",
+          "http://b.tile.openstreetmap.fr/osmfr/${z}/${x}/${y}.png",
+          "http://c.tile.openstreetmap.fr/osmfr/${z}/${x}/${y}.png"
+        ]
+      }
+    },
+
+    {
+      "title": "HOT",
+      "id": "osm.hot",
+      "type": "XYZ",
+      "properties": {
+        "urls": [
+          "http://a.tile.openstreetmap.fr/hot/${z}/${x}/${y}.png",
+          "http://b.tile.openstreetmap.fr/hot/${z}/${x}/${y}.png",
+          "http://c.tile.openstreetmap.fr/hot/${z}/${x}/${y}.png"
+        ]
+      }
+    }
+
+
+  ]
+
+}
