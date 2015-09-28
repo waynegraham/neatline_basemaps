@@ -1,0 +1,26 @@
+{
+
+  "Open Map Surfer (Neatlight)": [
+
+    {
+      "title": "Roads",
+      "id": "OpenMapSurfer.Roads",
+      "type": "XYZ",
+      "properties": {
+        "urls": [
+          "http://openmapsurfer.uni-hd.de/tiles/roads/x=${x}&y=${y}&z=${z}"
+        ]
+      }
+    },
+    {
+      "title": "Grayscale",
+      "id": "OpenMapSurfer.Grayscale",
+      "type": "XYZ",
+      "properties": {
+        "urls": [
+          "http://openmapsurfer.uni-hd.de/tiles/roadsg/x=${x}&y=${y}&z=${z}"
+        ]
+      }
+    }
+  ]
+}
