@@ -25,6 +25,42 @@
           "http://c.tile.thunderforest.com/transport/${z}/${x}/${y}.png"
         ]
       }
+    },
+    {
+      "title": "Transport Dark",
+      "id": "Thunderforest.TransportDark",
+      "type": "XYZ",
+      "properties": {
+        "urls": [
+          "http://a.tile.thunderforest.com/transport-dark/${z}/${x}/${y}.png",
+          "http://b.tile.thunderforest.com/transport-dark/${z}/${x}/${y}.png",
+          "http://c.tile.thunderforest.com/transport-dark/${z}/${x}/${y}.png"
+        ]
+      }
+    },
+    {
+      "title": "Landscape",
+      "id": "Thunderforest.Landscape",
+      "type": "XYZ",
+      "properties": {
+        "urls": [
+          "http://a.tile.thunderforest.com/landscape/${z}/${x}/${y}.png",
+          "http://b.tile.thunderforest.com/landscape/${z}/${x}/${y}.png",
+          "http://c.tile.thunderforest.com/landscape/${z}/${x}/${y}.png"
+        ]
+      }
+    },
+    {
+      "title": "Outdoors",
+      "id": "Thunderforest.Outdoors",
+      "type": "XYZ",
+      "properties": {
+        "urls": [
+          "http://a.tile.thunderforest.com/outdoors/${z}/${x}/${y}.png",
+          "http://b.tile.thunderforest.com/outdoors/${z}/${x}/${y}.png",
+          "http://c.tile.thunderforest.com/outdoors/${z}/${x}/${y}.png"
+        ]
+      }
     }
   ]
 }
