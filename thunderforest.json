@@ -1,0 +1,30 @@
+{
+
+  "Thunderforest (Neatlight)": [
+
+    {
+      "title": "OpenCycleMap",
+      "id": "Thunderforest.OpenCycleMap",
+      "type": "XYZ",
+      "properties": {
+        "urls": [
+          "http://a.tile.thunderforest.com/cycle/${z}/${x}/${y}.png",
+          "http://b.tile.thunderforest.com/cycle/${z}/${x}/${y}.png",
+          "http://c.tile.thunderforest.com/cycle/${z}/${x}/${y}.png"
+        ]
+      }
+    },
+    {
+      "title": "Transport",
+      "id": "Thunderforest.Transport",
+      "type": "XYZ",
+      "properties": {
+        "urls": [
+          "http://a.tile.thunderforest.com/transport/${z}/${x}/${y}.png",
+          "http://b.tile.thunderforest.com/transport/${z}/${x}/${y}.png",
+          "http://c.tile.thunderforest.com/transport/${z}/${x}/${y}.png"
+        ]
+      }
+    }
+  ]
+}
