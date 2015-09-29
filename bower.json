@@ -1,0 +1,21 @@
+{
+  "name": "neatline-basemaps",
+  "private": true,
+  "dependencies": {
+    "modernizr": "~2.8.3",
+    "openlayers": "*"
+  },
+  "overrides": {
+    "openlayers": {
+      "main": [
+        "lib/OpenLayers.js",
+        "theme/default/style.css",
+        "theme/default/google.css"
+      ]
+    }
+  },
+  "devDependencies": {
+    "chai": "~3.3.0",
+    "mocha": "~2.3.3"
+  }
+}
