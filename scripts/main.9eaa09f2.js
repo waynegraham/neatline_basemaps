@@ -1,1 +1,0 @@
-console.log("'Allo 'Allo!");var map=new OpenLayers.Map("map"),wms=new OpenLayers.Layer.WMS("OpenLayers WMS","http://vmap0.tiles.osgeo.org/wms/vmap0",{layers:"basic"}),layerControl=new OpenLayers.Control.LayerSwitcher({div:OpenLayers.Util.getElement("layerswitcher")});map.addControl(layerControl),map.addLayer(wms),map.zoomToMaxExtent(),window.onresize=function(){map.updateSize()};
