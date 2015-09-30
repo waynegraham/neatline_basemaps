@@ -1,0 +1,19 @@
+{
+
+  "OpenSeaMap (Neatscape)": [
+
+    {
+      "title": "Full",
+      "id": "Hydda.Full",
+      "type": "XYZ",
+      "properties": {
+        "urls": [
+          "http://tiles.openseamap.org/seamark/${z}/${x}/${y}.png"
+        ]
+      }
+    }
+  ]
+}
+
+
+
