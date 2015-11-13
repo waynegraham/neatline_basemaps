@@ -1,6 +1,6 @@
 {
 
-  "Thunderforest (Neatlight)": [
+  "Thunderforest (Neatscape)": [
 
     {
       "title": "OpenCycleMap",
@@ -59,6 +59,18 @@
           "http://a.tile.thunderforest.com/outdoors/${z}/${x}/${y}.png",
           "http://b.tile.thunderforest.com/outdoors/${z}/${x}/${y}.png",
           "http://c.tile.thunderforest.com/outdoors/${z}/${x}/${y}.png"
+        ]
+      }
+    },
+    {
+      "title": "Spinal Map",
+      "id": "Thunderforest.SpinalMap",
+      "type": "XYZ",
+      "properties": {
+        "urls": [
+          "http://a.tile.thunderforest.com/spinal-map/${z}/${x}/${y}.png",
+          "http://b.tile.thunderforest.com/spinal-map/${z}/${x}/${y}.png",
+          "http://c.tile.thunderforest.com/spinal-map/${z}/${x}/${y}.png"
         ]
       }
     }
